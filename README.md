@@ -1,2 +1,2 @@
-# bananaTree
+# banana-tree
 Branchless Algorithms
