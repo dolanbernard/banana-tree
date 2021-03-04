@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "math/mh_bmath.h"
+#include "mh_bmath/mh_bmath.h"
 
 int main(int argc, char *argv[]) {
 	
