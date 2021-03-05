@@ -1,8 +1,9 @@
 CC=gcc
 TPROG=testmh_bmath
 CFLAGS=-Wall -std=c99 -O1
-SOURCEDIR=mh_bmath
-SOURCE=$(SOURCEDIR)/mh_bmath.c test.c
+SOURCEDIRMATH=mh_bmath
+SOURCEDIRSTRING=mh_bstring
+SOURCE=$(SOURCEDIRMATH)/mh_bmath.c $(SOURCEDIRSTRING)/mh_bstring.c test.c
 OBJ=${SOURCE:c=o}
 OUTPUTFILE=banana-tree-build.log
 
